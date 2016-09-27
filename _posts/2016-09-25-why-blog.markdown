@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Why blog?"
+date:   2016-09-25 23:52:38
+categories: jekyll update
+---
+
+I am in school.  
+
+My wife and I went to visit my family this weekend.  We were about to leave, and I was sitting down, talking to my family for a few minutes waiting for my wife to be ready to go.  My dad asked me what I had going on for the week, and somehow we started talking about my persuasive writing class.  They were riveted as I told them about the rhetorical concept of stasis, and I started telling them about topoi, my wife told me she was ready to go.  
+
+I don't think on a daily basis, "Wow, the things I learned today are so cool and applicable!" but ... I guess a lot of the times they are.  So maybe somebody will want to hear about the things I'm learning.  
+
+Also, on a somewhat more selfish note, I think I learn better when I can summarize and share what I'm learning about.  
+
+--Jonathan

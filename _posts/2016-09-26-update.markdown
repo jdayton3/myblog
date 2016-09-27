@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Monday morning update"
+date:   2016-09-26 08:57:11
+categories: jekyll update
+---
+
+Day two on Jekyll.  
+
+It's pretty slick!  I'm not super familiar with the syntax, but based on my skimming of the first few chapters of [Why's Poignant Guide to Ruby](http://poignant.guide/) a few months ago, I think it's Ruby.  Rails.  Maybe.  OK.
+
+Some things I'm wishing I could figure out how to do:  
+
+ - Automatically generate a post.  I'm using vim to write my posts, and I wish I had a command line utility that would allow me to do something like the following: 
+
+~~~ 
+$ ./newPost title-of-the-post
+
+-->
+
+new file _posts/current-date-title-of-the-post.markdown:
+---
+layout: post
+title: "Title of the Post"
+date:  current date and time
+categories: jekyll update
+---
+
+-- Jonathan
+~~~
+
+ - Also, an "edit latest" command would be really nice, so I wouldn't have to type in "cd _posts;vim 2[tab]6[tab][tab]..."  I guess I'll probably end up writing said command utilities.
+ - Get vim's syntax highlighting figured out so it wouldn't randomly switch back and forth from italics to non-italics (however you say that)
+ - Every time I edit a file, I have to restart the Jekyll service because the css stops working.
+ - I downloaded the Monokai theme for my code blocks, but it's not working, and that's really a bummer.  I'd like to figure that out.
+
+Well, busy day ahead of me!  TTYL!
+
+
+-- Jonathan
