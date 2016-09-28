@@ -1,4 +1,6 @@
-.highlight {background-color: #272822}
+.highlight { background-color: #272822; }
+.highlight::selection { background: #49483e; }
+.highlight::-moz-selection { background: #49483e; }
 .highlight pre { background-color: #272822; }
 .highlight .hll { background-color: #272822; }
 .highlight .c { color: #75715e } /* Comment */

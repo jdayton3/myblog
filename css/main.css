@@ -5,6 +5,14 @@ body {
   background: url("../images/bg.png")
 }
 
+::selection {
+  background: #f3f315;
+}
+
+::-moz-selection {
+  background: #f3f315;
+}
+
 .container {
   background: #ffe;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
