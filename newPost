@@ -1,0 +1,13 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+DATE="$(date +%Y-%m-%d)"
+DATE_TIME="$(date '+%Y-%m-%d %H:%M:%S')"
+post_title="${@//[\n\\]}"
+lower_title="${post_title,,}"
+hyphenated_title="${lower_title// /-}"
+clean_title=${hyphenated_title//[^A-Za-z0-9_\-]}
+post_file_name="$DIR/_posts/$DATE-$clean_title.markdown"
+printf -- "---\nlayout:  post\ntitle:  \"$post_title\"\ndate:  $DATE_TIME\ncategories: jekyll update\n---\n\n-- Jonathan\n" >> $post_file_name
+
+vim $post_file_name
