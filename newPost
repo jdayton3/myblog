@@ -3,7 +3,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 DATE="$(date +%Y-%m-%d)"
 DATE_TIME="$(date '+%Y-%m-%d %H:%M:%S')"
-post_title="${@//[\\n]}"
+post_title="${@//\\n}"
 lower_title="${post_title,,}"
 hyphenated_title="${lower_title// /-}"
 clean_title=${hyphenated_title//[^A-Za-z0-9_\-]}
