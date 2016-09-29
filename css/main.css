@@ -2,7 +2,8 @@ body {
   font-family: monospace;
   line-height:150%;
   margin: 80px 0px;
-  background: url("../images/bg.png")
+  background: url("../images/bg.png");
+  max-width: 100%;
 }
 
 ::selection {
@@ -141,4 +142,8 @@ footer {
 .continue {
   text-align: center;
   margin-top: 40px;
+}
+
+article {
+  margin-bottom: 80px;
 }

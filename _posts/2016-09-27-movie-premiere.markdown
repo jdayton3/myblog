@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Movie premiere, et al."
 date:   2016-09-27 23:43:00
 categories: jekyll update

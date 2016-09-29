@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Thoughts on Molecular Bio, blogging, and the day"
 date:   2016-09-26 23:10:00
 categories: jekyll update
