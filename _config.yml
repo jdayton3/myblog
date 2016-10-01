@@ -17,7 +17,7 @@ title: Jonathan's Blog
 email: jonathandayton23@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     My stuff
-baseurl: "/myblog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jdayton3.github.io" # the base hostname & protocol for your site
 twitter_username: jdayton23
 github_username:  jdayton3
